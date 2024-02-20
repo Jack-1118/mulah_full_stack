@@ -178,6 +178,15 @@ input:focus {
     border-color: #ffa500;
 }
 
-.form-group span {
-
+.display {
+    font-family: 'Playfair Display', serif;
+    display: block; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #ddd; 
+    font-size: 1em; 
+    color: #333; 
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
 }
