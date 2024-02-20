@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Mulah Rewards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/page2.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MULAH</h1>
+        </header>
+        <main>
+            <div class="title">
+                <h2>Registration</h2>
+                <p>Please fill up your details.</p>
+        </div>
+
+            <form id="registration-form" method="get" action="page3.html">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                    <span class="error-message">*Please insert a name.</span>
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Birthday</label>
+                    <div class="birthday-inputs">
+                        <input type="text" id="day" name="day" placeholder="DD" maxlength="2" required>
+                        <input type="text" id="month" name="day" placeholder="MM" maxlength="2" required>
+                        <input type="text" id="year" name="year" placeholder="YYYY" maxlength="4" required>
+                    </div>
+                    <span class="error-message">*Please insert your birthday.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <span class="error-message">*Please insert a valid email address.</span>
+                </div>
+                <button type="submit" id="continue">Continue</button>
+                <hr>
+            </form>
+        </main>
+        <footer>
+            <p>Powered by <a href="https://MulahRewards.com">MulahRewards.com</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
